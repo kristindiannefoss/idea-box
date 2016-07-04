@@ -12,6 +12,10 @@ group :development, :test do
   gem 'pry-rails'
   gem 'capybara'
   gem 'launchy'
+  gem 'poltergeist'
+  gem 'database_cleaner'
+    # gem 'poltergeist', '~> 1.5.1'
+  gem 'phantomjs', :require => 'phantomjs/poltergeist'
 end
 
 group :development do
