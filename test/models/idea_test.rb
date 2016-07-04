@@ -29,4 +29,5 @@ class IdeaTest < ActiveSupport::TestCase
 
     assert(idea_with_title_and_body.valid?)
   end
+
 end
