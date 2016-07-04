@@ -54,4 +54,5 @@ class IdeaTest < ActiveSupport::TestCase
     refute(ideas(:one).valid?)
   end
 
+
 end
