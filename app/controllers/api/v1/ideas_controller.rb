@@ -27,9 +27,10 @@ class Api::V1::IdeasController < ApplicationController
       render json: idea.errors, status: 422
     end
   end
+
 private
 
     def idea_params
-      params.require(:idea).permit(:body, :title)
+      params.require(:idea).permit(:body, :title, :quality)
     end
 end
